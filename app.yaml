@@ -1,0 +1,7 @@
+runtime: python39
+
+entrypoint: python p11.py
+
+handlers:
+  - url: /.*
+    script: auto
